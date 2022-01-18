@@ -5,10 +5,12 @@ if operator == '-':
     print(number_1-number_2)
 elif operator == '+':
     print(number_1+number_2)
+elif operator == '*':
+    print(number_1 * number_2)
 elif operator == '/':
     print(number_1/number_2)
-elif operator == '*':
-    print(number_1*number_2)
-else:
-    operator = '/0'
-    print('valid number')
+    if number_1:
+        print(number_1/number_2)
+    else:
+
+        print('valid number')
