@@ -19,7 +19,6 @@ while True:
 print("Все гости на месте!")
 """
 
-"""
 clothes = []
 counter = 0
 while True:
@@ -30,5 +29,6 @@ while True:
 
     clothes.append(x)
     counter += y
-print(clothes, "Сумма: ", counter)"
-"""
+print("Список: ", clothes)
+print("Сумма: ", counter)
+
