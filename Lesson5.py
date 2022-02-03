@@ -1,3 +1,4 @@
+"""
 x = []
 
 while True:
@@ -16,3 +17,18 @@ while True:
     if len(x) == 0:
         break
 print("Все гости на месте!")
+"""
+
+"""
+clothes = []
+counter = 0
+while True:
+    x = input("Что вы купили: ")
+    if x == "Все":
+        break
+    y = int(input("Цена товара:"))
+
+    clothes.append(x)
+    counter += y
+print(clothes, "Сумма: ", counter)"
+"""
