@@ -3,11 +3,11 @@ while True:
     x = int(input("number1: "))
     y = int(input("number2: "))
     if y == 0:
-        print("error")
+        print("Error")
         continue
     print(x/y)
+    break
 """
-
 
 """
 while True:
@@ -18,8 +18,6 @@ while True:
         print("Не Угадали!")
     break
 """
-
-
 
 """
 c = 0
@@ -33,3 +31,10 @@ while True:
         print("Вы проиграли!")
         break
 """
+
+x = int(input("Введите число: "))
+
+for i in range(1, x + 1):
+
+
+    print('*'* i)
