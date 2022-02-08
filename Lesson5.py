@@ -19,6 +19,7 @@ while True:
 print("Все гости на месте!")
 """
 
+"""
 clothes = []
 counter = 0
 while True:
@@ -31,4 +32,23 @@ while True:
     counter += y
 print("Список: ", clothes)
 print("Сумма: ", counter)
+"""
+"""
+x = [1, 5, 4, 3, 9, 8, 10]
+nu_min = x[0]
+nu_max = x[0]
+s = 0
+c = 0
+for i in x:
 
+    if i < nu_min:
+        nu_min = i
+    if i > nu_max:
+        nu_max = i
+    s+=i
+    c +=1
+print(nu_max)
+print(nu_min)
+print(s)
+print(c)
+"""
